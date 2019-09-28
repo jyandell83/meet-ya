@@ -2,7 +2,7 @@
 An app where users can store the contact info and share with other users at social events. Kind of like digital business cards.
 
 
-## A to store your contact info and share quickly while attending networking events.
+## An app to store your contact info and share quickly while attending networking events.
 
 ### The site:
 
