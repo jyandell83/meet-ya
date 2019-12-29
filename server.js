@@ -3,6 +3,10 @@ const axios = require('axios');
 
 const app = express();
 
+const cors = require('cors');
+
+app.use(cors())
+
 app.use(express.json({
     extended: false
 }));
@@ -28,6 +32,6 @@ app.get('/rovers', async (req,res) => {
     res.send(message)
 }); 
 
-const PORT = 3000;
+const PORT = 8080;
 
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
