@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <div className="App">
-      This is React
+      {message}
     </div>
   );
 }
