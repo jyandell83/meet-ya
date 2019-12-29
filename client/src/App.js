@@ -3,7 +3,7 @@ import './App.css';
 
 const App = () => {
 
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState([]);
 
   async function fetchData() {
     const res = await fetch('http://localhost:8080/');
@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <div className="App">
-      {message}
+      {message.map((img) =>  <img src={img} className="image" />)}
     </div>
   );
 }
